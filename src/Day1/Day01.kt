@@ -20,11 +20,11 @@ fun day1() {
     }
 
     // test if implementation meets criteria from the description, like:
-    val testInput = linesToInt(readInput("day1_small.txt", 1))
+    val testInput = linesToInt(readInput(1, true))
+    val input = linesToInt(readInput(1))
     check(part1(testInput) == 7)
-    check(part2(testInput) == 5)
+    println("\t${part1(input)}")
 
-    val input = linesToInt(readInput("input.txt", 1))
-    println(part1(input))
-    println(part2(input))
+    check(part2(testInput) == 5)
+    println("\t${part2(input)}")
 }
