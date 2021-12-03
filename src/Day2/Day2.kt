@@ -45,8 +45,8 @@ fun day2() {
     val testInput = readInput(2, true)
     val input = readInput(2)
     check(part1(testInput) == 150)
-    println("\t${part1(input)}")
+    println("\tPart 1: ${part1(input)}")
 
     check(part2(testInput) == 900)
-    println("\t${part2(input)}")
+    println("\tPart 2: ${part2(input)}")
 }

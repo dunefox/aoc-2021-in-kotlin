@@ -13,3 +13,9 @@ fun linesToInt(lines: List<String>) = lines.filter { it != "" }.map { it.toInt()
  * Converts string to md5 hash.
  */
 fun String.md5(): String = BigInteger(1, MessageDigest.getInstance("MD5").digest(toByteArray())).toString(16)
+
+fun printSolution(day: Int, part1: Int, part2: Int, time1: Int, time2: Int) {
+    println("Running day $day")
+    println("\t$part1 took $time1")
+    println("\t$part2 took $time2")
+}

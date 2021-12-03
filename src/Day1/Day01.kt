@@ -23,8 +23,8 @@ fun day1() {
     val testInput = linesToInt(readInput(1, true))
     val input = linesToInt(readInput(1))
     check(part1(testInput) == 7)
-    println("\t${part1(input)}")
+    println("\tPart 1: ${part1(input)}")
 
     check(part2(testInput) == 5)
-    println("\t${part2(input)}")
+    println("\tPart 2: ${part2(input)}")
 }
