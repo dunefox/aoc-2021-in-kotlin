@@ -2,7 +2,7 @@
 
 Welcome to the Advent of Code[^aoc] Kotlin project created by [dunefox][github] using the [Advent of Code Kotlin Template][template] delivered by JetBrains.
 
-In this repository, dunefox is about to provide solutions for the puzzles using [Kotlin][kotlin] language.
+In this repository, dunefox is about to provide solutions for the puzzles using [Kotlin][kotlin] language. Also here in other languages: https://github.com/dunefox/adventofcode21
 
 If you're stuck with Kotlin-specific questions or anything related to this template, check out the following resources:
 
