@@ -1,7 +1,3 @@
-package Day2
-
-import readInput
-
 fun day2() {
     fun part1(input: List<String>): Int {
         var x = 0

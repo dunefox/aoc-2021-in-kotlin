@@ -1,7 +1,3 @@
-package Day3
-
-import readInput
-
 fun day3() {
     fun buildByte(current: String, counts: List<Pair<Int, Pair<Int, Int>>>, cmp: (Int, Int) -> Boolean): Int {
         return if (counts.isEmpty()) {
