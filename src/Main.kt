@@ -7,4 +7,6 @@ fun main() {
     day3()
     println("Running Day 6")
     day6()
+    println("Running Day 7")
+    day7()
 }
