@@ -9,4 +9,8 @@ fun main() {
     day6()
     println("Running Day 7")
     day7()
+    println("Running Day 8")
+    day8()
+    println("Running Day 14")
+    day14()
 }

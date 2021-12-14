@@ -9,6 +9,7 @@ fun readInput(day: Int, small: Boolean = false) = File("src/Day$day", if (!small
 
 fun linesToInt(lines: List<String>) = lines.filter { it != "" }.map { it.toInt() }
 fun linesToIntSequence(lines: List<String>, splitBy: (String) -> List<String>) = lines.filter { it != "" }.map { it -> splitBy(it).map { it.toInt() } }
+fun linesToSequence(lines: List<String>, splitBy: (String) -> List<String>) = lines.filter { it != "" }.map { splitBy(it) }
 
 /**
  * Converts string to md5 hash.
