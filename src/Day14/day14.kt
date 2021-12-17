@@ -64,7 +64,5 @@ fun day14() {
     println("\tPart 1: ${part1(input)}")
     check(part2(testInput) == 2188189693529)
     println("\tPart 2: ${part2(input)}")
-
-    println(measureTimedValue { part2(input) })
 }
 
